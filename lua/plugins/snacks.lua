@@ -2,6 +2,12 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
+      scroll = {
+        enable = false,
+      },
+      indent = {
+        enable = false,
+      },
       dashboard = {
         preset = {
           header = [[
